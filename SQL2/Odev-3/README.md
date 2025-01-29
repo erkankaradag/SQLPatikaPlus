@@ -51,7 +51,7 @@ Bu sorgu, "Sweden" veya "Jordan" gibi ülke isimlerini bulmak için kullanılabi
 ```sql
 SELECT *
 FROM film
-WHERE title ILIKE '%T%';
+WHERE title ILIKE '%T%T%T%T%';
 ```
 
 ### Açıklama:
